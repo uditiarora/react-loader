@@ -65,7 +65,7 @@ Rectangles.propTypes = {
 Rectangles.defaultProps = {
   height: 80,
   width: 80,
-  color: "grey",
+  color: "#64ffda",
   label: "Rectangles-loading"
 };
 
