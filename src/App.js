@@ -5,7 +5,7 @@ import HelloWorld from './loaders/index'
 
 function App() {
   return (
-    <HelloWorld>It's a pleasure to meet you!</HelloWorld>
+    <HelloWorld />
 
   );
 }

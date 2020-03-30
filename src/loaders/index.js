@@ -1,13 +1,7 @@
 import React from 'react'
+import Rectangles from './Rectangles'
 const HelloWorld = (props) => {
-  const children = props.children
-    ? <span>{props.children}</span>
-    : false
-  return (
-    <div>
-      <h1>Hello World!</h1>
-      {children}
-    </div>
-  )
+  return(<Rectangles></Rectangles>);
+  
 }
 export default HelloWorld
