@@ -7,11 +7,12 @@ import DancingSquares from './DancingSquares';
 import InfinitePlug from './InfintePlug';
 import Wheel from './Wheel';
 import Clock from './Clock';
+import Ring from './Ring';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <Clock />
+        <Ring />
       </div>     
     </div>
     );
