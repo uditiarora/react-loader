@@ -6,11 +6,12 @@ import HexagonRipple from './HexagonRipple';
 import DancingSquares from './DancingSquares';
 import InfinitePlug from './InfintePlug';
 import Wheel from './Wheel';
+import Clock from './Clock';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <Wheel />
+        <Clock />
       </div>     
     </div>
     );
