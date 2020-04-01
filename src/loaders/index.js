@@ -4,12 +4,13 @@ import './loader.css'
 import Flower from './Flower';
 import HexagonRipple from './HexagonRipple';
 import DancingSquares from './DancingSquares';
+import InfinitePlug from './InfintePlug';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <DancingSquares>
-        </DancingSquares>
+        <InfinitePlug>
+        </InfinitePlug>
       </div>     
     </div>
     );
