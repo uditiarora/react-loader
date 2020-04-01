@@ -29,8 +29,8 @@ DancingSquares.propTypes = {
   label: PropTypes.string
 };
 DancingSquares.defaultProps = {
-  height: 80,
-  width: 80,
+  height: 100,
+  width: 100,
   color: "#64ffda",
   label: "Squares-loading"
 };

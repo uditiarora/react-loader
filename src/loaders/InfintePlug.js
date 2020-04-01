@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const InfinitePlug = (props) => (
-    <svg version="1.1" id="preloader" x="0px" y="0px" width="240px" height="120px" viewBox="0 0 240 120">
+    <svg version="1.1" id="preloader" x="0px" y="0px" width={props.width} height={props.height} viewBox="0 0 240 120">
         <path id="loop-normal" fill="none" stroke={props.color} strokeWidth="12" class="st1" d="M120.5,60.5L146.48,87.02c14.64,14.64,38.39,14.65,53.03,0s14.64-38.39,0-53.03s-38.39-14.65-53.03,0L120.5,60.5
         L94.52,87.02c-14.64,14.64-38.39,14.64-53.03,0c-14.64-14.64-14.64-38.39,0-53.03c14.65-14.64,38.39-14.65,53.03,0z">
             <animate attributeName="stroke-dasharray" attributeType="XML"
@@ -55,8 +55,8 @@ InfinitePlug.propTypes = {
     label: PropTypes.string
   };
 InfinitePlug.defaultProps = {
-    height: 80,
-    width: 80,
+    height: 100,
+    width: 100,
     color: "#64ffda",
     label: "Socket-loading"
   };
