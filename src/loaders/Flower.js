@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const HexagonRipple = (props) => (
+const Flower = (props) => (
     <svg version="1.1" height={props.height}
         width={props.width}
-        fill = "none"
+        fill={props.color}
         stroke={props.color}
         viewBox="0 0 320 320"
         stroke-linecap="round"
@@ -76,15 +76,15 @@ const HexagonRipple = (props) => (
 )
 
 
-export default HexagonRipple
-HexagonRipple.propTypes = {
+export default Flower
+Flower.propTypes = {
     height: PropTypes.number,
     width: PropTypes.number,
     color: PropTypes.string,
     label: PropTypes.string
   };
   
-HexagonRipple.defaultProps = {
+Flower.defaultProps = {
     height: 100,
     width: 100,
     color: "#64ffda",
