@@ -5,12 +5,12 @@ import Flower from './Flower';
 import HexagonRipple from './HexagonRipple';
 import DancingSquares from './DancingSquares';
 import InfinitePlug from './InfintePlug';
+import Wheel from './Wheel';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <InfinitePlug>
-        </InfinitePlug>
+        <Wheel />
       </div>     
     </div>
     );
