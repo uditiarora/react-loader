@@ -7,8 +7,8 @@ const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <HexagonRipple>
-        </HexagonRipple>
+        <Rectangles>
+        </Rectangles>
       </div>     
     </div>
     );

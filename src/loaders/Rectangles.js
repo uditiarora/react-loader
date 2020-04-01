@@ -11,7 +11,7 @@ const Rectangles = (props) => (
     aria-label={props.label}
   >
     <g transform="matrix(1 0 0 -1 0 80)">
-      <rect width="10" height="20" rx="3">
+      <rect width="4" height="20" rx="3">
         <animate
           attributeName="height"
           begin="0s"
@@ -21,7 +21,7 @@ const Rectangles = (props) => (
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="15" width="10" height="80" rx="3">
+      <rect x="15" width="4" height="80" rx="3">
         <animate
           attributeName="height"
           begin="0s"
@@ -31,7 +31,7 @@ const Rectangles = (props) => (
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="30" width="10" height="50" rx="3">
+      <rect x="30" width="4" height="50" rx="3">
         <animate
           attributeName="height"
           begin="0s"
@@ -41,7 +41,7 @@ const Rectangles = (props) => (
           repeatCount="indefinite"
         />
       </rect>
-      <rect x="45" width="10" height="30" rx="3">
+      <rect x="45" width="4" height="30" rx="3">
         <animate
           attributeName="height"
           begin="0s"
