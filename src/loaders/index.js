@@ -14,11 +14,12 @@ import Square from './Square';
 import ThreeRings from './ThreeRings';
 import Bars from './Bars';
 import Simple from './Simple';
+import Compass from './Compass';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <Simple />
+        <Compass />
       </div>     
     </div>
     );
