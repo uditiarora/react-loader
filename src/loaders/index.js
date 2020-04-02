@@ -17,11 +17,12 @@ import Simple from './Simple';
 import Compass from './Compass';
 import MultipleRings from './MultipleRings';
 import FallingBars from './FallingBars';
+import Loading from './Loading';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <FallingBars />
+        <Loading />
       </div>     
     </div>
     );
