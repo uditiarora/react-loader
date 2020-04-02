@@ -15,11 +15,13 @@ import ThreeRings from './ThreeRings';
 import Bars from './Bars';
 import Simple from './Simple';
 import Compass from './Compass';
+import MultipleRings from './MultipleRings';
+import FallingBars from './FallingBars';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <Compass />
+        <FallingBars />
       </div>     
     </div>
     );
