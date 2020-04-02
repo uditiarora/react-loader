@@ -32,6 +32,6 @@ FallingBars.defaultProps = {
   height: 100,
   width: 100,
   color: "#64ffda",
-  label: "simple-loading"
+  label: "bars-loading"
 };
 

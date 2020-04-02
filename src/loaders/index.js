@@ -18,11 +18,13 @@ import Compass from './Compass';
 import MultipleRings from './MultipleRings';
 import FallingBars from './FallingBars';
 import Loading from './Loading';
+import Ripples from './Ripples';
+import { BallTriangle } from './BallTriangle';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <Loading />
+        <BallTriangle />
       </div>     
     </div>
     );
