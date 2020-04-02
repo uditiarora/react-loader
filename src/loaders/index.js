@@ -9,11 +9,13 @@ import Wheel from './Wheel';
 import Clock from './Clock';
 import Ring from './Ring';
 import ThreeDots from './ThreeDots'
+import ThreeJumpingDots from './ThreeJumpingDots';
+import Square from './Square';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <ThreeDots />
+        <Square />
       </div>     
     </div>
     );
