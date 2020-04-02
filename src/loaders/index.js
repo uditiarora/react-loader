@@ -8,11 +8,12 @@ import InfinitePlug from './InfintePlug';
 import Wheel from './Wheel';
 import Clock from './Clock';
 import Ring from './Ring';
+import ThreeDots from './ThreeDots'
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <Ring />
+        <ThreeDots />
       </div>     
     </div>
     );
