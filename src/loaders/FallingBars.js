@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const FallingBars = (props) => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 100 100" width = {props.width} height={props.height}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width = {props.width} height={props.height}>
         <rect y="25" width="10" height="50" rx="4" ry="4" fill={props.color}>
         <animate attributeName="x" values="10;100" dur="1.2s" repeatCount="indefinite"/>
         <animateTransform attributeName="transform" type="rotate" from="0 10 70" to="-60 100 70" dur="1.2s" repeatCount="indefinite"/>

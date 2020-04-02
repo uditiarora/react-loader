@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Compass = (props) => (
-    <svg class="preloader" xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" width="75px" height="75px" version="1.1" fill = {props.color}
+    <svg class="preloader" xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" width={props.width} height={props.height} version="1.1" fill = {props.color}
 viewBox="0 0 7500 7500"
  xmlnsXlink="http://www.w3.org/1999/xlink">
  
