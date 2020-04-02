@@ -44,5 +44,5 @@ ThreeJumpingDots.defaultProps = {
   height: 100,
   width: 100,
   color: "#64ffda",
-  label: "clock-loading"
+  label: "dots-loading"
 };

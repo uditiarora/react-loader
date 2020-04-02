@@ -11,11 +11,12 @@ import Ring from './Ring';
 import ThreeDots from './ThreeDots'
 import ThreeJumpingDots from './ThreeJumpingDots';
 import Square from './Square';
+import ThreeRings from './ThreeRings';
 const HelloWorld = (props) => {
   return(
     <div className="loader">
       <div className="inside">
-        <Square />
+        <ThreeRings />
       </div>     
     </div>
     );
