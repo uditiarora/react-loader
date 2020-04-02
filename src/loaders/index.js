@@ -1,6 +1,4 @@
-import React from 'react'
 import Rectangles from './Rectangles'
-import './loader.css'
 import Flower from './Flower';
 import HexagonRipple from './HexagonRipple';
 import DancingSquares from './DancingSquares';
@@ -19,15 +17,28 @@ import MultipleRings from './MultipleRings';
 import FallingBars from './FallingBars';
 import Loading from './Loading';
 import Ripples from './Ripples';
-import { BallTriangle } from './BallTriangle';
-const HelloWorld = (props) => {
-  return(
-    <div className="loader">
-      <div className="inside">
-        <BallTriangle />
-      </div>     
-    </div>
-    );
+import  BallTriangle  from './BallTriangle';
+const Spinner = {
+  BallTriangle,
+  Bars,
+  Clock,
+  Compass,
+  DancingSquares,
+  FallingBars,
+  Flower,
+  HexagonRipple,
+  InfinitePlug,
+  Loading,
+  MultipleRings,
+  Rectangles,
+  Ring,
+  Ripples,
+  Simple,
+  Square,
+  ThreeDots,
+  ThreeJumpingDots,
+  ThreeRings,
+  Wheel
   
 }
-export default HelloWorld
+export default Spinner

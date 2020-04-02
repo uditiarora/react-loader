@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export const BallTriangle = props => (
+const BallTriangle = (props) => (
   <svg
     height={props.height}
     width={props.width}
@@ -76,7 +76,7 @@ export const BallTriangle = props => (
     </g>
   </svg>
 );
-
+export default BallTriangle;
 BallTriangle.propTypes = {
   height: PropTypes.number,
   width: PropTypes.number,

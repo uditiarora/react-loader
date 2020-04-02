@@ -1,12 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import HelloWorld from './loaders/index'
-
+import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
+import Spinner from './loaders'
 function App() {
   return (
-    <HelloWorld />
-
+    <div></div>
   );
 }
 
