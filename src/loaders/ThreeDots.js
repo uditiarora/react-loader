@@ -41,6 +41,6 @@ ThreeDots.propTypes = {
 ThreeDots.defaultProps = {
   height: 100,
   width: 100,
-  color: "#64ffda",
+  color: "#f76c6c",
   label: "dots-loading"
 };
