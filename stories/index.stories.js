@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import centered from "@storybook/addon-centered/react";
-import Loader from "../index";
+import Loader from "../src/index";
 
 
 storiesOf("Loader", module)
