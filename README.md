@@ -1,6 +1,6 @@
 # react-loader
 
-To see a demo of all the components, go to: (https://uditiarora.github.io/react-loader/)[https://uditiarora.github.io/react-loader/]
+To see a demo of all the components, go to: [https://uditiarora.github.io/react-loader/](https://uditiarora.github.io/react-loader/)
 
 ### Installation
 
