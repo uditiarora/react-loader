@@ -75,7 +75,7 @@
     "eslint-plugin-prettier": "*",
     "eslint-plugin-react": "^7.10.0",
     "gh-pages": "^2.2.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nodemon": "^1.17.2",
     "prettier": "*",
     "redux-logger": "*",
